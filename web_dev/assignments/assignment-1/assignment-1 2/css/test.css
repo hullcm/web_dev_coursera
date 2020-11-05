@@ -1,0 +1,154 @@
+body{
+	margin: 20px;
+	padding:10px;
+	font-family: "Arial", "Times New Roman";
+}
+  
+header{
+	font-family: "Arial Black", "Times New Roman";
+	background-image: url("../images/flywheel.jpg");
+	background-color: #878f99;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 30px;
+}
+  
+header > h1{
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+}
+  
+header > nav{
+	text-align: center;
+	font-size: 130%;
+}
+  
+header > nav > a{
+	color: #000000;
+	background-color: rgba(255,255,255,0.4);
+	text-align: center;
+	vertical-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 20px 40px;
+	padding: 10px;
+	border-radius: 3px;
+	width: 15%;
+}
+  
+.active{
+	background-color: #FFFFFF;
+}
+  
+nav>a:not(.active):hover{
+	background-color: rgba(255,255,255,0.6);
+}
+  
+.left{
+	display: inline-block;
+	width: 20%;
+	background-color: #878f99;
+	float: left;
+	height: 100vh;
+}
+  
+.left img{
+	display: block;
+	border: 3px solid #000000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width: 80%;
+	max-height: 80%;
+}
+  
+.right{
+	display: inline-block;
+	width: 75%;
+	float: left;
+	margin-left: 10px;
+}
+  
+.right > h2{
+	text-transform: uppercase;
+}
+  
+table{
+	border-collapse: seprate;
+	border-spacing: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+  
+table th, td{
+	padding: 10px 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+  
+th:first-child {
+	border-top-left-radius: 5px;
+	text-align: left;
+}
+th:last-child {
+	border-top-right-radius: 5px;
+}
+  
+td {
+	border-bottom: 1px solid #cecfd5;
+	border-right: 1px solid #cecfd5;
+	color: #00091a;
+	font-size: 90%;
+}
+
+td:first-child {
+	border-left: 1px solid #cecfd5;
+}
+  
+tr:last-child td{
+	border-bottom: none;
+}
+  
+tr:last-child td:first-child {
+	border-bottom-left-radius: 5px;
+	border-left: none;
+}
+
+tr:last-child td:last-child {
+	border-bottom-right-radius: 5px;
+	border-right: none;
+}
+  
+tr:nth-child(even) {
+	background: #f0f0f2;
+}
+  
+tr:nth-child(odd) {
+	background: #a2b9bc;
+}
+  
+tr:first-child{
+	background: #395870;
+	background: linear-gradient(#49708f, #293f50);
+	color: #fff;
+	text-transform: uppercase;
+}
+  
+tr:not(:first-child){
+	opacity: 0.6;
+}
+  
+tr th,td:first-child{
+	text-align: left;
+}
+  
+tr:not(:first-child):hover{
+	opacity: 1;
+}

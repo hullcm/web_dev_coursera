@@ -1,0 +1,147 @@
+/*First CSS Project*/
+
+body{
+    background-color: #7fffd496;
+    padding: 0% 0.5%;
+    margin: 0% 0.5%;
+    font-family: Arial, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: #fdfdfd;
+    display: block;
+    background-image: url(../images/flywheel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+}
+h1{
+    text-transform: uppercase;
+    color: #ffffff;
+}
+/* Navigation*/
+nav a{
+    transition-property: color, border-radius, width, background-color;
+    transition-duration: 1.5s;
+    transition-delay: .5s;
+    transition-timing-function: linear;
+    transition: 2s ease;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    display: inline-block;
+    margin: 70px;
+    text-decoration: none;
+    color: #000000;
+    background: linear-gradient( #ffffff6b, #cccccc46 );
+}
+nav .active{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+nav a:focus{
+    background-color: #b2ee84;
+}
+nav a:hover{
+    background-color: #b2ee84;
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    opacity: 1;
+    background: #ffa07a;
+}
+/* Class Left are*/
+.left{
+    background-color: #ffa07a;
+    float: left;
+}
+aside img{
+    display: block;
+    background-attachment: fixed;
+    border-style: solid;
+    border-color: #7fffd4;
+    width: 150px;
+    margin: 5px;
+}
+/* Class Right area*/
+.right{
+    width: 70%;
+    Float: left;
+    Padding: 0% 1%;
+}
+.right h2{
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+.right a{
+    text-align: left;
+    color: #0000ff;
+}
+.right p{
+    font-size: 20px;
+}
+
+/* Table Area*/
+table{
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 14px;
+    width: 70%;
+    margin-left: 10%;
+}
+  
+  table td{
+    background-color: #b2ee84;
+    border: 1px;
+    border-style: solid;
+    color: #000000;
+    font-size: 15px;
+    opacity: .6;
+    border-color: #ffffff;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+table tr:not(:first-child):hover> td{
+    opacity: 1;
+    background-color: #ffa60080;;
+}
+
+table th{
+    color: #ffffff;
+    background: -moz-linear-gradient(top, #265800 1%, #ffa500 99%);
+    background: -webkit-linear-gradient(#265800 1%, #ffa500 99%);
+    background: -o-linear-gradient(#265800 1%, #ffa500 99%);
+    background: linear-gradient(#265800 1%, #ffa500 99%);
+    opacity: .9;
+    border: 1px;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+table tr td:last-child{
+    text-align: center;
+}
+table tr td:nth-last-child(even){
+    text-align: center;
+}
+table tr th:last-child{
+    border-right: 0;
+    text-align: center;
+}
+table tr th:nth-last-child(even){
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+header {
+    background-color: #8b0000;
+}
+
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav {
+    color: #000000;
+    display: inline-block;
+}
+
+a {
+    color: #000000;
+    background-color: #add8e6;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #00008b;
+}
+
+.right {
+    background-color:#2f4f4f;
+}
+
+.left {
+    display: none;
+}
